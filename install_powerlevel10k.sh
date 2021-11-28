@@ -22,10 +22,10 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 sudo sed -i 's/ZSH_THEME=/#ZSH_THEME=/g' ~/.zshrc
 
 #Set new theme powerlevel10k/powerlevel10k to replace the above theme in $HOME/.zshrc
-echo '''                            
-#Set new theme powerlevel10k/powerlevel10k to replace the theme above in $HOME/.zshrc
+echo '''
+# Set new theme powerlevel10k/powerlevel10k to replace the theme above in $HOME/.zshrc
 ZSH_THEME="powerlevel10k/powerlevel10k"
 ''' >> ~/.zshrc
 
-echo ''' You need to type "source ~/.zshrc" in your terminal to activate powerlevel10k or type "p10k configure" '''
+echo ''' You need to run "source ~/.zshrc" twice in your terminal to activate powerlevel10k or type "p10k configure".'''
 
