@@ -5,3 +5,4 @@ This bash script automatically install powerlevel10k to Ubuntu & Kali on TryHack
 - cd ~/Downloads/powerlevel10k
 - sudo chmod +x install*
 - source ~/.zshrc (might need to run 2 times or you can run: p10k configure)
+- suro rm -rf ~/Downloads/powerlevel10k
