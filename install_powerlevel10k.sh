@@ -15,13 +15,13 @@ echo "Your machine is" __$MACHINE'''__, I used this script to install powerlevel
 # Download package information from all configured sources
 sudo apt update
 
-#Clone the powerlevel10k repository to oh-my-zsh directory
+# Clone the powerlevel10k repository to oh-my-zsh directory
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
-#Comment out the current ZSH_THEME in $HOME/.zshrc to disable it
+# Comment out the current ZSH_THEME in $HOME/.zshrc to disable it
 sudo sed -i 's/ZSH_THEME=/#ZSH_THEME=/g' ~/.zshrc
 
-#Set new theme powerlevel10k/powerlevel10k to replace the above theme in $HOME/.zshrc
+# Set new theme powerlevel10k/powerlevel10k to replace the above theme in $HOME/.zshrc
 echo '''
 # Set new theme powerlevel10k/powerlevel10k to replace the theme above in $HOME/.zshrc
 ZSH_THEME="powerlevel10k/powerlevel10k"
