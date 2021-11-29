@@ -1,5 +1,4 @@
-This bash script automatically install powerlevel10k (for oh-my-zsh plugin manager) to Ubuntu & Kali on TryHackMe.com. I have not tested it with other machines. (You might want to use the official powerlevel10k supported fonts [MesloLGS](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k).)
-
+This bash script automatically install powerlevel10k (for oh-my-zsh plugin manager with the official supported fonts [MesloLGS](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k)) to Ubuntu & Kali on TryHackMe.com. I have not tested it with other machines.
 ## Instructions
 - git clone https://github.com/Century300/powerlevel10k.git ~/Downloads/powerlevel10k (require this path to install Meslo Fonts properly)
 - cd ~/Downloads/powerlevel10k
