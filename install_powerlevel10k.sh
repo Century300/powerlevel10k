@@ -10,7 +10,7 @@ case "${unameOut}" in
   *)          MACHINE="UNKNOWN:${unameOut}"
 esac
 
-echo "Your machine is" __$MACHINE'''__, I used this script to install powerlevel10k to the Ubuntu & Kali (Linux) machines on TryHackMe.com, I have not tested the scripts with other machines yet. You might want to run "sudo apt upgrade -y" after running this 1st bash script, but it might take a long time to upgrade all packages.'''
+echo "Your machine is __"$MACHINE'''__, I used this script to install powerlevel10k to the Ubuntu & Kali (Linux) machines on TryHackMe.com, I have not tested the scripts with other machines yet. You might want to run "sudo apt upgrade -y" after running this 1st bash script, but it might take a long time to upgrade all packages.'''
 
 # Download package information from all configured sources
 sudo apt update
@@ -32,6 +32,6 @@ echo '''
 ZSH_THEME="powerlevel10k/powerlevel10k"
 ''' >> ~/.zshrc
 
-echo '''The scripts automatically installed the powerlevel10k official fonts MesloLGS, but you would need to manually change the font to MesloLGS Regular in your terminal profile under Edit-> Profiles...
+echo '''The scripts automatically installed the powerlevel10k official fonts MesloLGS, but you would need to manually change the font to MesloLGS Regular in your terminal profile.
 After that, you need to run "source ~/.zshrc" twice in your terminal to activate powerlevel10k or type "p10k configure".'''
 
