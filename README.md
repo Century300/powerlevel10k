@@ -4,4 +4,4 @@ This bash script automatically install powerlevel10k (for oh-my-zsh plugin manag
 - cd ~/Downloads/powerlevel10k
 - sudo chmod +x install*
 - source ~/.zshrc (might need to run 2 times or you can run: p10k configure)
-- suro rm -rf ~/Downloads/powerlevel10k
+- sudo rm -rf ~/Downloads/powerlevel10k
