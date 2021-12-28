@@ -3,5 +3,6 @@ This bash script automatically install powerlevel10k (for oh-my-zsh plugin manag
 - git clone https://github.com/Century300/powerlevel10k.git ~/Downloads/powerlevel10k (require this path to install Meslo Fonts properly)
 - cd ~/Downloads/powerlevel10k
 - sudo chmod +x install*
+- ./install_powerlevel10k.sh
 - source ~/.zshrc (might need to run 2 times or you can run: p10k configure)
 - sudo rm -rf ~/Downloads/powerlevel10k
