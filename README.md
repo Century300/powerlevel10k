@@ -6,7 +6,7 @@ git clone https://github.com/Century300/powerlevel10k.git ~/Downloads/powerlevel
 sudo chmod +x install*
 - Run the bash script:
 ```
-/install_powerlevel10k.sh
+./install_powerlevel10k.sh
 ```
 - You might need to run this 2 times or run "p10k configure"
 ```
