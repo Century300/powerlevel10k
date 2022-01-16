@@ -9,7 +9,7 @@ sudo chmod +x install*
 ```shell
 ./install_powerlevel10k.sh
 ```
-- You might need to run this 2 times or run "p10k configure"
+- You might need to run this 2 times or run "_p10k configure_"
 ```shell
 source ~/.zshrc
 ```
