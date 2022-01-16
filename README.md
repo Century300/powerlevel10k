@@ -4,6 +4,7 @@ These shell (bash) scripts automatically install powerlevel10k (for oh-my-zsh pl
 ```shell
 git clone https://github.com/Century300/powerlevel10k.git ~/Downloads/powerlevel10k && cd ~/Downloads/powerlevel10k
 sudo chmod +x install*
+```
 - Run the bash script:
 ```
 ./install_powerlevel10k.sh
